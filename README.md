@@ -1,7 +1,7 @@
 # placa_PCI_semaforo
 placa_PCI_semaforo
 
-Desenvolvi uma placa de circuito impresso para um semáforo de LEDs no KiCad. A motivação foi me familiarizar com o software, percorrendo todo o fluxo de projeto: desenho do esquemático, associação de footprints, roteamento das trilhas e verificação final no visualizador 3D.
+Desenvolvi uma placa de circuito impresso passiva para um semáforo de LEDs no KiCad. A motivação foi me familiarizar com o software, percorrendo todo o fluxo de projeto: desenho do esquemático, associação de footprints, roteamento das trilhas e verificação final no visualizador 3D.
 
 No esquemático, atribuí cores distintas aos condutores de sinal (vermelho, amarelo e verde) para deixar imediatamente claro qual trilha alimenta cada LED — uma escolha simples que facilita muito a leitura e a revisão do circuito. Cada LED recebeu um resistor limitador dimensionado individualmente (330 Ω, 300 Ω e 220 Ω), respeitando as diferenças de tensão direta entre as cores.
 <img width="722" height="507" alt="image" src="https://github.com/user-attachments/assets/5f3a6456-8dc2-46a8-b146-0379e377e2c7" />
